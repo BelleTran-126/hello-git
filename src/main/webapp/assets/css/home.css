@@ -1,0 +1,73 @@
+body, .container {
+	background: url(background.jpg);
+	background-size: cover;
+}
+
+
+.side-bar {
+	width: 90%;
+}
+
+.left{
+	width: 23% ;
+}
+
+.right, .side-bar {
+	background: transparent;
+	backdrop-filter: blur(25px);
+}
+
+ul {
+	list-style-type: none !important;
+	padding: 0;
+}
+
+.pagination {
+	justify-content: flex-end;
+	background: transparent;
+}
+
+ul.pagination li, input {
+	background: transparent;
+}
+
+ul li a:hover {
+	text-decoration: none;
+	color: #343a40 !important;
+	background: #fff;
+	transition: 0.5s;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    max-width : 64vw;
+    overflow: auto;
+}
+
+
+.dataTables_filter {
+	display: flex;
+	justify-content: flex-end;
+}
+
+label input[type='search'] {
+	background: transparent;
+}
+
+.add-btn {
+	border-radius: 25px;
+	margin-left: auto;
+	background: transparent;
+}
+
+input[type='reset'] {
+	border-radius: 25px;
+	margin-left: auto;
+}
+
+.add-btn:hover,input[type='reset']:hover{
+	background: #fff;
+	text-decoration: none;
+	color: #343a40 !important;
+	transition: 0.3s;
+}
